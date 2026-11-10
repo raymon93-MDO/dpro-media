@@ -10,7 +10,7 @@ Guía para gestionar las publicaciones semanales de DPRO en Instagram y Facebook
 | Facebook | Página "DPRO · Proyectos & Obras" | 1358249884048379 |
 
 - Instagram: `create_carousel_post` (2–10 JPEG, 4:5) o `create_image_post`.
-- Facebook: **no publicar por Windsor**. Desde el 10/11/2026 Instagram comparte automáticamente cada publicación en la Página de Facebook vinculada (configurado por Chapa). Publicar también por `create_photo_post` duplicaría el post. Solo usar Facebook directo si Chapa lo pide para un contenido exclusivo de Facebook.
+- Facebook (Página "DPRO · Proyectos & Obras", 1358249884048379): **sí publicar siempre por Windsor** con `create_photo_post` (portada + texto completo), además de Instagram. El compartido automático que configuró Chapa va desde Instagram a la cuenta de Facebook vinculada (perfil "Dpro Proyectos Obras"), no a esta Página.
 - TikTok: descartado por decisión de Chapa.
 
 ## Actualizaciones de obras (siempre)
