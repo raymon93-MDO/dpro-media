@@ -31,7 +31,10 @@ Verificar con `curl` que devuelva 200 e `image/jpeg` antes de publicar.
 
 ## Estilo
 
-- Plantilla minimalista: `generador/slides3.py` (fondo claro, tipografía fina, acento naranja #F07A1D).
+- **Estilo vigente (desde 10/11/2026): render fotorrealista + láminas técnicas.** Portada con render generado en Gemini (cuenta de Chapa, vía Claude in Chrome, prompts en `renders/prompts_gemini.md`), luego planta, vista 3D (si existe en `generador/iso.py`) y ficha. Se arma con `python3 generador/slides4.py <modelo> renders/<modelo>_render.jpg <salida>`.
+- Revisar cada render antes de usarlo: mismo número de plantas y mismos materiales que el modelo. Si Gemini se equivoca, pedirle que regenere con la corrección.
+- La portada dice "Render ilustrativo". Los renders no son fotos de obras construidas.
+- Plantilla minimalista para láminas sin render: `generador/slides3.py` (fondo claro, tipografía fina, acento naranja #F07A1D).
 - Modelos de vivienda en `generador/models.py` (verificar que los m² sumen con `python3 models.py`).
 - Texto en "vos", corto, con datos concretos y cierre **"Escribí PLANO por WhatsApp"**.
 - No publicar precios salvo que Chapa los valide con el listado CAPACO vigente.
