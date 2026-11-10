@@ -10,8 +10,12 @@ Guía para gestionar las publicaciones semanales de DPRO en Instagram y Facebook
 | Facebook | Página "DPRO · Proyectos & Obras" | 1358249884048379 |
 
 - Instagram: `create_carousel_post` (2–10 JPEG, 4:5) o `create_image_post`.
-- Facebook: `create_photo_post` con `image_url` (una imagen; va la portada + texto completo).
+- Facebook: **no publicar por Windsor**. Desde el 10/11/2026 Instagram comparte automáticamente cada publicación en la Página de Facebook vinculada (configurado por Chapa). Publicar también por `create_photo_post` duplicaría el post. Solo usar Facebook directo si Chapa lo pide para un contenido exclusivo de Facebook.
 - TikTok: descartado por decisión de Chapa.
+
+## Actualizaciones de obras (siempre)
+
+Cada semana, antes de proponer contenido, buscar novedades del sector en Paraguay: obras y proyectos destacados (Revista Mandu'a: mandua.com.py/notas), noticias de construcción e inmobiliario (InfoNegocios InfoConstrucción / InfoMiCasa), tendencias de diseño contemporáneo y variaciones de precios (CAPACO: capaco.org.py/ceec). Usar esas novedades como tema de al menos un post o historia por semana, siempre en palabras propias y citando la fuente en el texto. Nunca reproducir fotos ni textos de terceros.
 
 ## Regla de oro
 

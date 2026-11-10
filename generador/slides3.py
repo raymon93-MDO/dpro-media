@@ -76,9 +76,13 @@ def stats_row(items, y, size=54):
 
 
 def cover(m, n):
-    fac = FACADES[m["key"]](W, 700)
+    import iso
+    if m["key"] in iso.ISO:
+        art = f'<g transform="translate(0,150)">{iso.ISO[m["key"]]().svg(W, 760, pad=60)}</g>'
+    else:
+        art = f'<g transform="translate(0,170)">{FACADES[m["key"]](W, 700)}</g>'
     o = [header(n, "NUEVO MODELO"),
-         f'<g transform="translate(0,170)">{fac}</g>',
+         art,
          T(72, 930, m["nombre"].split()[0].upper(), 18, 600, ORANGE, ls=5)]
     name = " ".join(m["nombre"].split()[1:])
     o.append(T(66, 1046, name, 96, 300, INK))
