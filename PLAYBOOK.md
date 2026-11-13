@@ -44,7 +44,7 @@ Verificar con `curl` que devuelva 200 e `image/jpeg` antes de publicar.
 
 - Lunes, miércoles y viernes a las 19:00 (America/Asuncion).
 - Planilla de calendario: https://claude.ai/artifact/M7NHuQ9XjtEJyfKtXFiSG3
-- Listos para publicar (estilo minimalista): `posts/proximos/` → Ñandutí 92, Dúo 70, Quinta Lapacho.
+- Listo para publicar (con render): `posts/proximos/` → Quinta Lapacho. Ñandutí 92 y Dúo 70 ya publicados.
 - Textos de los modelos: `posts/textos_publicaciones.md`.
 
 ## Reels (pendiente · lunes 16/11/2026)
@@ -60,3 +60,4 @@ Verificar con `curl` que devuelva 200 e `image/jpeg` antes de publicar.
 |---|---|---|---|
 | 2026-11-10 | Casa Brisa 58 (carrusel moderno) | https://www.instagram.com/p/DfkdgstDfpu/ | Post 1358249884048379_122093166489555754 |
 | 2026-11-11 | Casa Ñandutí 92 (carrusel con render) | https://www.instagram.com/p/DfngZj0EU8Y/ | Post 1358249884048379_122093891493555754 |
+| 2026-11-13 | Dúplex Dúo 70 (carrusel con render) | https://www.instagram.com/p/Dfsp9pakVkn/ | Post 1358249884048379_122095073577555754 |
