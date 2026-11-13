@@ -47,6 +47,13 @@ Verificar con `curl` que devuelva 200 e `image/jpeg` antes de publicar.
 - Listos para publicar (estilo minimalista): `posts/proximos/` → Ñandutí 92, Dúo 70, Quinta Lapacho.
 - Textos de los modelos: `posts/textos_publicaciones.md`.
 
+## Reels (pendiente · lunes 16/11/2026)
+
+- Pedido de Chapa (13/11): sumar Reels hechos con Gemini y publicarlos por Windsor, para usar todas las herramientas y crecer.
+- **El lunes, con la compu de Chapa activa y Claude in Chrome:** pedirle a Gemini un Reel 9:16 de 15–20 s (recorrido animado del render de un modelo DPRO, con planta y ficha). Revisarlo (mismas plantas y materiales que el modelo, leyenda "Render ilustrativo"), mostrárselo a Chapa y publicarlo solo con su OK.
+- Publicación: Instagram `create_video_post` (MP4/MOV, 3 s–15 min, 9:16, `cover_url` opcional). Video alojado en `posts/AAAA-MM-<slug>/` y servido por raw.githubusercontent.com (verificar 200 y `video/mp4`).
+- Motivo: en el informe del 06–12/11 los carruseles solo llegaron a seguidores (alcance 15 y 12). El Reel es el formato que Instagram muestra a quienes no te siguen.
+
 ## Registro de publicaciones
 
 | Fecha | Post | Instagram | Facebook |
