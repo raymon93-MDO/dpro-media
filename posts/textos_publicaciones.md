@@ -115,3 +115,73 @@ Deslizá para ver el checklist antes de techar ➡️
 📍 Capiatá · Central · Paraguay
 
 #DPRO #ObraSegura #TemporadaDeTormentas #ConstruirEnParaguay #Capiatá #Paraguay
+
+---
+
+## Reel · Quinta Lapacho (posts/2026-11-17-reel-lapacho/reel_lapacho.mp4)
+
+🎬 Quinta Lapacho en 20 segundos
+Render, planta y ficha de nuestra quinta para el asado del domingo.
+
+🔥 Quincho de 48 m² · 🏊 piscina de 6 x 3 m · 🛏️ 2 dormitorios
+Se construye por etapas: primero el quincho.
+
+Render ilustrativo · diseño original DPRO
+📲 Escribí PLANO por WhatsApp
+📍 Capiatá · Central · Paraguay
+
+#DPRO #CasaDeQuinta #Quincho #Piscina #ConstruirEnParaguay #Capiatá #Paraguay
+
+---
+
+## Educativo · Cómo leer el plano de tu casa (posts/2026-11-23-como-leer-un-plano, plano_1 → plano_3)
+
+📐 Cómo leer el plano de tu casa
+Antes de construir, tenés que entender tu plano. Mirá estos 4 elementos:
+
+1️⃣ Las cotas: los números sobre las líneas son medidas en metros
+2️⃣ Los ambientes: cada uno con su nombre y sus m²
+3️⃣ Puertas y ventanas: el arco muestra hacia dónde abre la puerta
+4️⃣ Cubierto y semicubierto: galerías y quinchos se marcan aparte
+
+Un buen plano te ahorra cambios en obra, discusiones y sorpresas en el presupuesto.
+
+📲 Escribí PLANO por WhatsApp
+📍 Capiatá · Central · Paraguay
+
+#DPRO #PlanosDeCasas #CasaPropia #ConstruirEnParaguay #Capiatá #Paraguay
+
+---
+
+## Reel · Casa Ñandutí 92 (posts/2026-11-24-reel-nanduti/reel_nanduti.mp4)
+
+🎬 Casa Ñandutí 92 en 20 segundos
+Para la familia que necesita espacio de verdad.
+
+🛏️ 3 dormitorios, uno en suite · 🍳 cocina con isla · 📐 92,4 m² cubiertos
+Se puede construir en 2 etapas.
+
+Render ilustrativo · diseño original DPRO
+📲 Escribí PLANO por WhatsApp
+📍 Capiatá · Central · Paraguay
+
+#DPRO #CasaFamiliar #LadrilloVisto #ConstruirEnParaguay #Capiatá #Paraguay
+
+---
+
+## Educativo · Tu casa, por etapas (posts/2026-11-27-casa-por-etapas, etapas_1 → etapas_3)
+
+🧱 Tu casa, por etapas
+No hace falta tener todo para arrancar, pero sí un plan. El orden de una obra:
+
+1️⃣ Cimientos y estructura: se hacen bien una sola vez
+2️⃣ Muros y techo: con el techo puesto, la obra queda protegida
+3️⃣ Instalaciones y revoques: cañerías y cables antes de revocar
+4️⃣ Terminaciones: pisos, aberturas, pintura y artefactos
+
+La clave: pensá la casa completa aunque la hagas de a poco. Plano completo desde el inicio, cómputo por etapa y ampliaciones previstas.
+
+📲 Escribí PLANO por WhatsApp
+📍 Capiatá · Central · Paraguay
+
+#DPRO #ConstruirPorEtapas #CasaPropia #ConstruirEnParaguay #Capiatá #Paraguay

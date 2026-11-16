@@ -167,7 +167,121 @@ def clima_3():
     return doc("\n".join(o))
 
 
-POSTS = {"sector": [sector_1, sector_2, sector_3], "tormentas": [clima_1, clima_2, clima_3]}
+
+
+# ---------------- Post: cómo leer un plano (educativo) ----------------
+
+def _brisa_plan(x, y, w, h):
+    from models import MODELS
+    from plan import Plan
+    m = [m for m in MODELS if m["key"] == "brisa58"][0]
+    return Plan(m["floors"][0], w, h, x, y).render()
+
+
+def plano_1():
+    o = [header(1, 3, "APRENDÉ CON DPRO"),
+         _brisa_plan(60, 170, W - 120, 640),
+         T(72, 900, "GUÍA RÁPIDA", 18, 600, ORANGE, ls=5),
+         T(66, 1000, "Cómo leer", 92, 300, INK),
+         T(66, 1100, "el plano de tu casa", 80, 300, INK),
+         T(72, 1160, "Lo que tenés que entender antes de construir", 26, 400, MUTED),
+         footer("y te explicamos tu plano punto por punto")]
+    return doc("\n".join(o))
+
+
+def plano_2():
+    o = [header(2, 3, "LOS 4 ELEMENTOS"), T(66, 220, "Qué mirar en un plano", 56, 300, INK)]
+    tips = [("01", "Las cotas", "Los números sobre las líneas son medidas en metros: largo y ancho de cada ambiente y del total."),
+            ("02", "Los ambientes", "Cada espacio lleva su nombre y su superficie en m². Sumados te dan los m² cubiertos."),
+            ("03", "Puertas y ventanas", "El arco muestra hacia dónde abre la puerta. Las líneas finas en el muro son ventanas."),
+            ("04", "Lo cubierto y lo semicubierto", "Galerías y quinchos se marcan aparte: tienen techo pero no cierre completo.")]
+    y = 300
+    for n, t, d in tips:
+        o.append(T(72, y + 34, n, 40, 300, ORANGE))
+        o.append(T(180, y + 22, t, 29, 500, INK))
+        s, yy = para(180, y + 60, d, 23, 820, MUTED)
+        o.append(s)
+        y = yy + 40
+    o.append(footer("y te explicamos tu plano punto por punto"))
+    return doc("\n".join(o))
+
+
+def plano_3():
+    o = [header(3, 3, "POR QUÉ IMPORTA"), T(66, 220, "Un buen plano te ahorra", 56, 300, INK)]
+    tips = [("Cambios en obra", "Cada cambio a mitad de camino suma material, mano de obra y días."),
+            ("Discusiones", "Con medidas claras, vos, el maestro de obras y el proveedor hablan el mismo idioma."),
+            ("Sorpresas en el presupuesto", "Del plano sale el cómputo: cuánto material lleva cada rubro.")]
+    y = 340
+    for t, d in tips:
+        o.append(f'<rect x="72" y="{y - 6}" width="6" height="96" fill="{ORANGE}"/>')
+        o.append(T(104, y + 26, t, 34, 500, INK))
+        s, yy = para(104, y + 72, d, 25, 860, MUTED)
+        o.append(s)
+        y = yy + 70
+    o.append(footer("y te armamos plano + cómputo para tu terreno"))
+    return doc("\n".join(o))
+
+
+# ---------------- Post: construir por etapas (educativo) ----------------
+
+def _stages(x, y):
+    o = []
+    for i in range(4):
+        cx = x + i * 230
+        h = 90 + i * 70
+        o.append(f'<rect x="{cx}" y="{y - h}" width="170" height="{h}" fill="{ORANGE if i == 3 else "none"}" stroke="{INK}" stroke-width="3"/>')
+        o.append(T(cx + 85, y + 50, f"Etapa {i + 1}", 22, 500, MUTED, "middle"))
+    o.append(f'<line x1="{x - 30}" y1="{y}" x2="{x + 4 * 230 - 30}" y2="{y}" stroke="{INK}" stroke-width="2"/>')
+    return "\n".join(o)
+
+
+def etapas_1():
+    o = [header(1, 3, "CONSTRUÍ A TU RITMO"),
+         _stages(120, 700),
+         T(72, 900, "PLANIFICACIÓN", 18, 600, ORANGE, ls=5),
+         T(66, 1000, "Tu casa,", 92, 300, INK),
+         T(66, 1100, "por etapas", 92, 300, INK),
+         T(72, 1160, "Cómo avanzar sin parar la obra ni rehacer trabajos", 26, 400, MUTED),
+         footer("y te armamos el plan por etapas")]
+    return doc("\n".join(o))
+
+
+def etapas_2():
+    o = [header(2, 3, "EL ORDEN"), T(66, 220, "Las 4 etapas de una obra", 56, 300, INK)]
+    tips = [("01", "Cimientos y estructura", "Lo que no se ve y sostiene todo. Se hace bien una sola vez."),
+            ("02", "Muros y techo", "Con el techo puesto, la obra queda protegida de la lluvia."),
+            ("03", "Instalaciones y revoques", "Cañerías y cableado antes de revocar, para no romper después."),
+            ("04", "Terminaciones", "Pisos, aberturas, pintura y artefactos: lo que más se ve.")]
+    y = 300
+    for n, t, d in tips:
+        o.append(T(72, y + 34, n, 40, 300, ORANGE))
+        o.append(T(180, y + 22, t, 29, 500, INK))
+        s, yy = para(180, y + 60, d, 23, 820, MUTED)
+        o.append(s)
+        y = yy + 40
+    o.append(footer("y te armamos el plan por etapas"))
+    return doc("\n".join(o))
+
+
+def etapas_3():
+    o = [header(3, 3, "LA CLAVE"), T(66, 220, "Pensá la casa completa", 56, 300, INK),
+         T(66, 290, "aunque la hagas de a poco", 56, 300, INK)]
+    tips = [("El plano completo, desde el inicio", "Así la etapa 1 ya queda lista para lo que viene."),
+            ("Cómputo por etapa", "Sabés cuánto material y mano de obra necesitás en cada paso."),
+            ("Dejá previstas las ampliaciones", "Cañerías, cimientos y aberturas pensadas para crecer.")]
+    y = 420
+    for t, d in tips:
+        o.append(f'<rect x="72" y="{y - 6}" width="6" height="96" fill="{ORANGE}"/>')
+        o.append(T(104, y + 26, t, 34, 500, INK))
+        s, yy = para(104, y + 72, d, 25, 860, MUTED)
+        o.append(s)
+        y = yy + 70
+    o.append(footer("y te armamos el plan por etapas"))
+    return doc("\n".join(o))
+
+
+POSTS = {"sector": [sector_1, sector_2, sector_3], "tormentas": [clima_1, clima_2, clima_3],
+         "plano": [plano_1, plano_2, plano_3], "etapas": [etapas_1, etapas_2, etapas_3]}
 
 
 def build(key, outdir):

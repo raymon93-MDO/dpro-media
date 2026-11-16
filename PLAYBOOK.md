@@ -47,11 +47,12 @@ Verificar con `curl` que devuelva 200 e `image/jpeg` antes de publicar.
 - Semana 16–20/11 (propuesta, pendiente de OK): Quinta Lapacho (`posts/2026-11-16-quinta-lapacho/`), Novedades BCP (`posts/2026-11-18-novedades-construccion/`), Tormentas (`posts/2026-11-20-casa-tormentas/`). `posts/proximos/` quedó vacío: los 4 modelos ya tienen carrusel. Láminas informativas: `python3 generador/info.py <sector|tormentas> <salida>`.
 - Textos de los modelos: `posts/textos_publicaciones.md`.
 
-## Reels (pendiente · lunes 16/11/2026)
+## Reels (1 por semana, desde 16/11/2026)
 
-- Pedido de Chapa (13/11): sumar Reels hechos con Gemini y publicarlos por Windsor, para usar todas las herramientas y crecer.
-- **El lunes, con la compu de Chapa activa y Claude in Chrome:** pedirle a Gemini un Reel 9:16 de 15–20 s (recorrido animado del render de un modelo DPRO, con planta y ficha). Revisarlo (mismas plantas y materiales que el modelo, leyenda "Render ilustrativo"), mostrárselo a Chapa y publicarlo solo con su OK.
-- Publicación: Instagram `create_video_post` (MP4/MOV, 3 s–15 min, 9:16, `cover_url` opcional). Video alojado en `posts/AAAA-MM-<slug>/` y servido por raw.githubusercontent.com (verificar 200 y `video/mp4`).
+- Decisión de Chapa (16/11): mantener el ritmo de carruseles (lun/mié/vie) y sumar **un Reel por semana**, en un día sin carrusel (martes, 19:00).
+- Se arma en la nube con `python3 generador/reel.py <render.jpg> <lamina_planta.jpg> <lamina_ficha.jpg> "<KICKER>" "<título 1>" "<título 2>" "<bajada>" <salida.mp4>`: 9:16, 1080x1920, unos 19 s, paneo sobre el render de Gemini + planta + ficha + cierre "Escribí PLANO". Sin música (sin riesgo de derechos). Portada: el frame de 0,5 s exportado como JPEG.
+- Renders nuevos de Gemini (o un video animado de Gemini) solo se pueden pedir cuando la compu de Chapa está conectada con Claude in Chrome (prompts en `renders/prompts_gemini.md`).
+- Publicación: Instagram `create_video_post` con `cover_url`. **raw.githubusercontent.com sirve el MP4 como application/octet-stream**, así que el video se publica desde jsDelivr fijado al commit: `https://cdn.jsdelivr.net/gh/raymon93-MDO/dpro-media@<commit>/posts/<carpeta>/<video>.mp4` (verificado: 200 y video/mp4). En la Página de Facebook: `create_photo_post` con la portada y el texto (Windsor no publica videos en la Página).
 - Motivo: en el informe del 06–12/11 los carruseles solo llegaron a seguidores (alcance 15 y 12). El Reel es el formato que Instagram muestra a quienes no te siguen.
 
 ## Registro de publicaciones
