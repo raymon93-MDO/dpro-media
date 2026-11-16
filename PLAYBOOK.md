@@ -44,7 +44,7 @@ Verificar con `curl` que devuelva 200 e `image/jpeg` antes de publicar.
 
 - Lunes, miércoles y viernes a las 19:00 (America/Asuncion).
 - Planilla de calendario: https://claude.ai/artifact/M7NHuQ9XjtEJyfKtXFiSG3
-- Listo para publicar (con render): `posts/proximos/` → Quinta Lapacho. Ñandutí 92 y Dúo 70 ya publicados.
+- Semana 16–20/11 (propuesta, pendiente de OK): Quinta Lapacho (`posts/2026-11-16-quinta-lapacho/`), Novedades BCP (`posts/2026-11-18-novedades-construccion/`), Tormentas (`posts/2026-11-20-casa-tormentas/`). `posts/proximos/` quedó vacío: los 4 modelos ya tienen carrusel. Láminas informativas: `python3 generador/info.py <sector|tormentas> <salida>`.
 - Textos de los modelos: `posts/textos_publicaciones.md`.
 
 ## Reels (pendiente · lunes 16/11/2026)

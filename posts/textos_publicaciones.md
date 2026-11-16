@@ -77,3 +77,41 @@ Se puede construir por etapas: primero el quincho, después los dormitorios y la
 📍 Central · Paraguay
 
 #DPRO #CasaDeQuinta #Quincho #Piscina #ConstruirEnParaguay #FinDeSemana
+
+---
+
+## Novedades · La construcción vuelve a empujar (posts/2026-11-18-novedades-construccion, sector_1 → sector_3)
+
+📈 La construcción vuelve a empujar
+Según el Banco Central del Paraguay, la economía creció 3,9 % en setiembre y 5,5 % en lo que va del año. La construcción estuvo entre los rubros que más aportaron, gracias a que se ejecutaron más obras públicas y privadas. (Fuente: BCP, vía La Nación, 13/11/2026)
+
+¿Qué significa para vos si estás por construir?
+🧱 Más obras = más demanda de cuadrillas y materiales: reservá fechas con tiempo
+📋 Tené el cómputo antes de arrancar: cuánto lleva cada rubro
+🛒 Comprá por etapas, según el avance, para no parar la obra
+📐 Un plano completo te ahorra cambios y sorpresas
+
+📲 Escribí PLANO por WhatsApp
+📍 Capiatá · Central · Paraguay
+
+#DPRO #ConstruirEnParaguay #NoticiasConstrucción #CasaPropia #Capiatá #Paraguay
+
+---
+
+## Educativo · Tu casa, lista para el temporal (posts/2026-11-20-casa-tormentas, tormentas_1 → tormentas_3)
+
+⛈️ Tu casa, lista para el temporal
+Viento y lluvia no se improvisan: se diseñan. En una entrevista con InfoNegocios, Diego Bentel (Capaco) explicó que no es lo mismo que caigan 10 mm en un día que en una hora. Por eso los desagües se calculan para el chaparrón fuerte.
+
+4 claves antes de construir:
+1️⃣ Techo y anclajes calculados para el viento de tu zona
+2️⃣ Canaletas y bajadas pensadas para la lluvia intensa
+3️⃣ Que el agua salga del lote: pendientes, rejillas y piso más alto que el terreno
+4️⃣ Que lo que dice el plano se cumpla en la obra
+
+Deslizá para ver el checklist antes de techar ➡️
+
+📲 Escribí PLANO por WhatsApp
+📍 Capiatá · Central · Paraguay
+
+#DPRO #ObraSegura #TemporadaDeTormentas #ConstruirEnParaguay #Capiatá #Paraguay
