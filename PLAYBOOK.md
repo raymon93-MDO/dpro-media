@@ -65,3 +65,4 @@ Verificar con `curl` que devuelva 200 e `image/jpeg` antes de publicar.
 | 2026-11-10 | Casa Brisa 58 (carrusel moderno) | https://www.instagram.com/p/DfkdgstDfpu/ | Post 1358249884048379_122093166489555754 |
 | 2026-11-11 | Casa Ñandutí 92 (carrusel con render) | https://www.instagram.com/p/DfngZj0EU8Y/ | Post 1358249884048379_122093891493555754 |
 | 2026-11-13 | Dúplex Dúo 70 (carrusel con render) | https://www.instagram.com/p/Dfsp9pakVkn/ | Post 1358249884048379_122095073577555754 |
+| 2026-11-16 | Quinta Lapacho (carrusel con render) | https://www.instagram.com/p/Df0YXbGEYNl/ | Post 1358249884048379_122097244545555754 |
