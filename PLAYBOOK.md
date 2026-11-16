@@ -43,7 +43,8 @@ Verificar con `curl` que devuelva 200 e `image/jpeg` antes de publicar.
 ## Calendario
 
 - Lunes, miércoles y viernes a las 19:00 (America/Asuncion).
-- Planilla de calendario: https://claude.ai/artifact/M7NHuQ9XjtEJyfKtXFiSG3
+- Planilla de calendario: https://claude.ai/artifact/M7NHuQ9XjtEJyfKtXFiSG3 (hoja "Calendario", actualizada al 16/11 con lo publicado, lo programado, el Reel del martes 24/11 como "Pendiente Gemini" y el banco de ideas). Mantenerla al día en cada cambio de estado.
+- Ritmo: carruseles lun/mié/vie + Reel los martes, todo a las 19:00.
 - Semana 16–20/11 (aprobada y programada). Semana 23–27/11: lunes "Cómo leer un plano" y viernes "Casa por etapas" aprobados y programados como prueba (Chapa decide después si sigue el formato educativo); el miércoles 25 va con novedades frescas. Antes: Quinta Lapacho (`posts/2026-11-16-quinta-lapacho/`), Novedades BCP (`posts/2026-11-18-novedades-construccion/`), Tormentas (`posts/2026-11-20-casa-tormentas/`). `posts/proximos/` quedó vacío: los 4 modelos ya tienen carrusel. Láminas informativas: `python3 generador/info.py <sector|tormentas> <salida>`.
 - Textos de los modelos: `posts/textos_publicaciones.md`.
 
