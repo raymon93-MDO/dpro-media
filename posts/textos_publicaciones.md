@@ -74,9 +74,9 @@ El lugar para el asado del domingo y las vacaciones en familia.
 Se puede construir por etapas: primero el quincho, después los dormitorios y la piscina.
 
 📲 Escribí PLANO por WhatsApp
-📍 Central · Paraguay
+📍 Capiatá · Central · Paraguay
 
-#DPRO #CasaDeQuinta #Quincho #Piscina #ConstruirEnParaguay #FinDeSemana
+#DPRO #CasaDeQuinta #Quincho #Piscina #ConstruirEnParaguay #Capiatá #Paraguay
 
 ---
 
