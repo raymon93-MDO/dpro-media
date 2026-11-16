@@ -21,3 +21,15 @@ Photorealistic architectural render, vertical 4:5, eye-level front view at golde
 ## 4. Quinta Lapacho
 
 Photorealistic architectural render, vertical 4:5, wide three-quarter view at sunset. A modern country weekend house (quinta) in Paraguay: a closed volume on the left in board-formed concrete and dark graphite with a black-framed sliding glass door and a wood-slat screen; on the right a large open-air covered terrace (quincho) 8 m wide under one long thin flat roof with a warm wooden slat ceiling, slim black steel columns, a built-in exposed-brick barbecue grill with chimney, a long wooden dining table with chairs and a kitchen counter. In front, a 6x3 m rectangular swimming pool with light stone deck, sun loungers, lush lawn, a blooming pink lapacho tree and pindó palms. Warm lights under the roof, relaxed luxury atmosphere, real estate photography style. No people, no text.
+
+---
+
+## Reels (video, Gemini / Veo · imagen a video)
+
+Subir el render del modelo (`renders/<modelo>_render.jpg`) como imagen de partida, formato vertical 9:16. Gemini genera clips de ~8 s: pedir 2 clips y unirlos (≈16 s). Reglas: misma arquitectura que la imagen (no agregar ni quitar plantas, aberturas ni materiales), sin personas, sin texto, sin logos, sin música con letra.
+
+### Quinta Lapacho · clip 1 (llegada)
+Vertical 9:16 cinematic architectural video, starting exactly from the provided image. Slow, smooth drone-like dolly forward and slight arc to the right over the lawn, toward the covered terrace (quincho) at sunset. Keep the architecture exactly as in the image: single-story house, board-formed concrete and dark graphite volume, wood-slat sliding panel, long thin flat roof with warm wooden slat ceiling, slim black steel columns, exposed-brick barbecue with chimney, wooden dining table, 6x3 m pool with stone deck and loungers, pink lapacho tree and palms. Gentle breeze moving the palm leaves and lapacho flowers, a few pink petals falling, soft ripples and reflections on the pool water, warm lights glowing under the roof. Photorealistic, real estate commercial quality, stable camera, no people, no text, no new buildings.
+
+### Quinta Lapacho · clip 2 (quincho)
+Vertical 9:16 cinematic architectural video, continuing from the provided image. Slow lateral tracking shot from left to right along the pool edge, revealing the open quincho under the wooden slat ceiling: brick barbecue with a soft fire glow, long wooden table with chairs, kitchen counter, warm recessed lights turning on as dusk falls. Calm pool water reflecting the warm lights and the pink lapacho tree. Keep the architecture identical to the image. Photorealistic, smooth and steady camera, golden hour to blue hour transition, no people, no text.
