@@ -40,9 +40,23 @@ def main(c1, c2, kicker, titulo, bajada, out):
             + T(W / 2, 1530, "Escribí PLANO", 84, 500, ORANGE, "middle")
             + T(W / 2, 1605, "por WhatsApp", 42, 300, INK, "middle")
             + T(W / 2, 1720, "Render ilustrativo · Capiatá · Central · Paraguay", 26, 400, MUTED, "middle")), f"{d}/end.png")
-    total = L1 + L2 - X
+    single = c2 in ("-", "")
+    if single:  # un solo clip de Gemini (p. ej. si se agotó el cupo de videos)
+        dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", c1],
+                                   capture_output=True, text=True).stdout)
+        total = dur
+    else:
+        total = L1 + L2 - X
     t_end = total - END
-    fc = (
+    if single:
+        fc = (
+            f"[0:v]setpts=PTS-STARTPTS,scale={W}:{H}:flags=lanczos,fps=30,format=yuv420p,setsar=1[v];"
+            f"[1:v]format=rgba[ley];[2:v]format=rgba,fade=t=in:st=0.3:d=0.6:alpha=1,fade=t=out:st=3.4:d=0.6:alpha=1[tit];"
+            f"[3:v]format=rgba,fade=t=in:st={t_end}:d=0.7:alpha=1[end];"
+            f"[v][ley]overlay=0:0:enable='lt(t,{t_end+0.4})'[a];[a][tit]overlay=0:0[b];[b][end]overlay=0:0,format=yuv420p[vo];"
+            f"[0:a]asetpts=PTS-STARTPTS,volume=2.0,afade=t=in:d=0.4,afade=t=out:st={total-1.5}:d=1.5[ao]")
+    else:
+      fc = (
         f"[0:v]trim=0:{L1},setpts=PTS-STARTPTS,scale={W}:{H}:flags=lanczos,fps=30,format=yuv420p,setsar=1[v1];"
         f"[1:v]trim=0:{L2},setpts=PTS-STARTPTS,scale={W}:{H}:flags=lanczos,fps=30,format=yuv420p,setsar=1[v2];"
         f"[v1][v2]xfade=transition=fade:duration={X}:offset={L1-X}[v];"
@@ -52,7 +66,8 @@ def main(c1, c2, kicker, titulo, bajada, out):
         f"[0:a]atrim=0:{L1},asetpts=PTS-STARTPTS[a1];[1:a]atrim=0:{L2},asetpts=PTS-STARTPTS[a2];"
         f"[a1][a2]acrossfade=d={X},volume=2.0,afade=t=in:d=0.4,afade=t=out:st={total-1.5}:d=1.5[ao]")
     loop = lambda p: ["-loop", "1", "-framerate", "30", "-t", f"{total}", "-i", p]
-    cmd = ["ffmpeg", "-y", "-loglevel", "error", "-i", c1, "-i", c2, *loop(f"{d}/ley.png"), *loop(f"{d}/tit.png"), *loop(f"{d}/end.png"),
+    ins = ["-i", c1] if single else ["-i", c1, "-i", c2]
+    cmd = ["ffmpeg", "-y", "-loglevel", "error", *ins, *loop(f"{d}/ley.png"), *loop(f"{d}/tit.png"), *loop(f"{d}/end.png"),
            "-filter_complex", fc, "-map", "[vo]", "-map", "[ao]", "-t", f"{total}",
            "-c:v", "libx264", "-preset", "slow", "-crf", "19", "-pix_fmt", "yuv420p", "-r", "30",
            "-c:a", "aac", "-b:a", "128k", "-ar", "44100", "-movflags", "+faststart", out]

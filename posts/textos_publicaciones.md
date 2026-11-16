@@ -201,3 +201,19 @@ Render ilustrativo · diseño original DPRO
 #DPRO #CasaDeQuinta #Quincho #Piscina #ConstruirEnParaguay #Capiatá #Paraguay
 
 ---
+
+## Reel · Casa Ñandutí 92 (Gemini) (posts/2026-11-24-reel-nanduti-gemini/reel_nanduti_gemini.mp4)
+
+🎬 Casa Ñandutí 92, al caer la tarde
+Para la familia que necesita espacio de verdad.
+
+🛏️ 3 dormitorios, uno en suite · 🍳 cocina con isla · 📐 92,4 m² cubiertos
+Se puede construir en 2 etapas.
+
+Render ilustrativo · diseño original DPRO
+📲 Escribí PLANO por WhatsApp
+📍 Capiatá · Central · Paraguay
+
+#DPRO #CasaFamiliar #LadrilloVisto #ConstruirEnParaguay #Capiatá #Paraguay
+
+---
