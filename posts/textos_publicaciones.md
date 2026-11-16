@@ -185,3 +185,19 @@ La clave: pensá la casa completa aunque la hagas de a poco. Plano completo desd
 📍 Capiatá · Central · Paraguay
 
 #DPRO #ConstruirPorEtapas #CasaPropia #ConstruirEnParaguay #Capiatá #Paraguay
+
+## Reel · Quinta Lapacho (Gemini) (posts/2026-11-17-reel-lapacho-gemini/reel_lapacho_gemini.mp4)
+
+🎬 Recorré la Quinta Lapacho
+El quincho para el asado del domingo, la piscina y el lapacho en flor.
+
+🔥 Quincho de 48 m² · 🏊 piscina de 6 x 3 m · 🛏️ 2 dormitorios
+Se construye por etapas: primero el quincho.
+
+Render ilustrativo · diseño original DPRO
+📲 Escribí PLANO por WhatsApp
+📍 Capiatá · Central · Paraguay
+
+#DPRO #CasaDeQuinta #Quincho #Piscina #ConstruirEnParaguay #Capiatá #Paraguay
+
+---
