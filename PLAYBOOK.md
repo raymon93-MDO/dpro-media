@@ -68,3 +68,4 @@ Verificar con `curl` que devuelva 200 e `image/jpeg` antes de publicar.
 | 2026-11-16 | Quinta Lapacho (carrusel con render) | https://www.instagram.com/p/Df0YXbGEYNl/ | Post 1358249884048379_122097244545555754 |
 | 2026-11-17 | Reel Quinta Lapacho (video Gemini) | https://www.instagram.com/reel/Df29H0-DOJ-/ | Post 1358249884048379_122097893775555754 (portada + texto) |
 | 2026-11-18 | La construcción vuelve a empujar (novedades BCP, carrusel) | https://www.instagram.com/p/Df5iAsyDfVA/ | Post 1358249884048379_122098620291555754 |
+| 2026-11-20 | Tu casa, lista para el temporal (educativo, carrusel con checklist) | https://www.instagram.com/p/Df-rkANDQ9r/ | Post 1358249884048379_122100236979555754 |
