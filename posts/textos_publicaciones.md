@@ -217,3 +217,21 @@ Render ilustrativo · diseño original DPRO
 #DPRO #CasaFamiliar #LadrilloVisto #ConstruirEnParaguay #Capiatá #Paraguay
 
 ---
+
+## Novedades · Obras que se frenan por falta de pago (posts/2026-11-25-obras-frenadas, deuda_1 → deuda_3)
+
+⏸️ Obras que se frenan por falta de pago
+Según Capaco, la deuda del Estado con las constructoras ronda los US$ 350 millones entre capital e intereses. A octubre había 176 trámites de pago pendientes en el MOPC, ya hay obras paralizadas y el gremio advierte que entre 30.000 y 40.000 empleos están en riesgo si no se regulariza. (Fuente: InfoNegocios, 18/11/2026)
+
+¿Y tu obra? Que no se frene por lo mismo:
+💵 Pagá por avance medido en obra, no por adelantado
+📝 Alcance, plazos y forma de pago, todo por escrito
+📋 Cómputo y cronograma: cuánto lleva cada etapa y cuándo la pagás
+🧱 Arrancá una etapa cuando tengas cubierta la etapa completa
+
+📲 Escribí PLANO por WhatsApp
+📍 Capiatá · Central · Paraguay
+
+#DPRO #ConstruirEnParaguay #NoticiasConstrucción #CasaPropia #Capiatá #Paraguay
+
+---

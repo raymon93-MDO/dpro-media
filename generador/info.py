@@ -280,8 +280,80 @@ def etapas_3():
     return doc("\n".join(o))
 
 
+# ---------------- Post: obras frenadas por deuda (novedades) ----------------
+
+def icon_paused_house(cx, cy):
+    """Ícono lineal original: casa a medio construir con símbolo de pausa."""
+    o = [f'<g transform="translate({cx},{cy})" fill="none" stroke-linecap="round" stroke-linejoin="round">']
+    o.append(f'<path d="M-200,0 L0,-150 L200,0" stroke="{INK}" stroke-width="4" stroke-dasharray="18 14"/>')
+    o.append(f'<path d="M-160,-30 V190 H160 V-30" stroke="{INK}" stroke-width="3"/>')
+    for i in range(5):
+        y = 150 - i * 40
+        w = 320 - i * 50
+        o.append(f'<line x1="-160" y1="{y}" x2="{-160 + w}" y2="{y}" stroke="{RULE}" stroke-width="3"/>')
+    o.append(f'<line x1="-260" y1="190" x2="260" y2="190" stroke="{MUTED}" stroke-width="2"/>')
+    o.append(f'<circle cx="190" cy="-90" r="62" fill="{BG}" stroke="{ORANGE}" stroke-width="4"/>')
+    o.append(f'<line x1="172" y1="-115" x2="172" y2="-65" stroke="{ORANGE}" stroke-width="8"/>')
+    o.append(f'<line x1="208" y1="-115" x2="208" y2="-65" stroke="{ORANGE}" stroke-width="8"/>')
+    o.append('</g>')
+    return "\n".join(o)
+
+
+def deuda_1():
+    o = [header(1, 3, "NOVEDADES DEL SECTOR"),
+         icon_paused_house(540, 520),
+         T(72, 860, "CAPACO · NOVIEMBRE 2026", 18, 600, ORANGE, ls=5),
+         T(66, 970, "Obras que se frenan", 88, 300, INK),
+         T(66, 1066, "por falta de pago", 88, 300, INK),
+         T(72, 1126, "Qué pasa en la obra pública y cómo cuidar la tuya", 26, 400, MUTED),
+         source("Fuente: InfoNegocios, con datos de Capaco (18/11/2026)"),
+         footer("y planificá tu obra con números claros")]
+    return doc("\n".join(o))
+
+
+def deuda_2():
+    o = [header(2, 3, "LOS DATOS"), T(66, 220, "Lo que advierte Capaco", 56, 300, INK)]
+    stats = [("US$ 350 M", "deuda del estado con constructoras · capital + intereses"),
+             ("30.000–40.000", "empleos del sector en riesgo si no se regulariza")]
+    y = 340
+    for v, lab in stats:
+        o.append(T(72, y + 60, v, 88, 300, ORANGE))
+        o.append(T(72, y + 104, lab.upper(), 16, 600, MUTED, ls=2))
+        y += 190
+    y += 10
+    o.append(f'<line x1="72" y1="{y}" x2="{W-72}" y2="{y}" stroke="{RULE}" stroke-width="1"/>')
+    y += 60
+    for t in ["A octubre había 176 trámites de pago pendientes en el MOPC, de 83 empresas y consorcios.",
+              "Según Capaco, ya hay obras paralizadas y el gremio pide regularizar los pagos."]:
+        o.append(T(72, y, "—", 26, 400, ORANGE))
+        s, y = para(116, y, t, 28, 860)
+        o.append(s)
+        y += 26
+    o.append(source("Fuente: InfoNegocios, «Construcción sin cimiento financiero» (18/11/2026)"))
+    o.append(footer("y te contamos cómo arrancar tu obra"))
+    return doc("\n".join(o))
+
+
+def deuda_3():
+    o = [header(3, 3, "PARA TU OBRA"), T(66, 220, "Que la tuya no se frene", 56, 300, INK)]
+    tips = [("01", "Pagá por avance", "Cada pago contra un avance medido en obra, no por adelantado."),
+            ("02", "Todo por escrito", "Alcance, plazos y forma de pago en un contrato claro."),
+            ("03", "Cómputo y cronograma", "Sabé cuánto lleva cada etapa y cuándo la vas a pagar."),
+            ("04", "Etapas que cierran", "Arrancá una etapa cuando tengas cubierta la etapa completa.")]
+    y = 330
+    for n, t, d in tips:
+        o.append(T(72, y + 34, n, 40, 300, ORANGE))
+        o.append(T(180, y + 22, t, 30, 500, INK))
+        s, _ = para(180, y + 62, d, 24, 820, MUTED)
+        o.append(s)
+        y += 190
+    o.append(footer("y te armamos el cómputo y el plan de pagos"))
+    return doc("\n".join(o))
+
+
 POSTS = {"sector": [sector_1, sector_2, sector_3], "tormentas": [clima_1, clima_2, clima_3],
-         "plano": [plano_1, plano_2, plano_3], "etapas": [etapas_1, etapas_2, etapas_3]}
+         "plano": [plano_1, plano_2, plano_3], "etapas": [etapas_1, etapas_2, etapas_3],
+         "deuda": [deuda_1, deuda_2, deuda_3]}
 
 
 def build(key, outdir):
