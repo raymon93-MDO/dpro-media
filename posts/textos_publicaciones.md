@@ -235,3 +235,116 @@ Según Capaco, la deuda del Estado con las constructoras ronda los US$ 350 millo
 #DPRO #ConstruirEnParaguay #NoticiasConstrucción #CasaPropia #Capiatá #Paraguay
 
 ---
+
+---
+
+## Casa Salón Yvoty (posts/proximos/yvoty144, yvoty144_1 → yvoty144_3)
+
+🏪 Casa Salón Yvoty · diseño original DPRO
+Tu negocio abajo, tu casa arriba. Para un lote de 10x30.
+
+🛍️ Salón comercial de 37 m² con vidriera, baño y depósito
+🏠 Vivienda arriba: 2 dormitorios, estudio, estar-cocina y balcón
+🚪 Entrada independiente para la vivienda
+📐 144 m² cubiertos en 2 plantas
+🔨 Se construye por etapas: primero el salón, después la vivienda
+
+📲 Escribí PLANO por WhatsApp
+📍 Capiatá · Central · Paraguay
+
+#DPRO #CasaConSalón #LocalComercial #ConstruirEnParaguay #Capiatá #Paraguay
+
+---
+
+## Educativo · Que tu casa te deje ingresos (posts/proximos/info-salon, salon_1 → salon_3)
+
+🏪 Que tu casa te deje ingresos
+Un salón al frente se piensa desde el plano, no se agrega después.
+
+Lo que se decide antes:
+1️⃣ Acceso independiente para la vivienda
+2️⃣ Medidores de luz y agua separados
+3️⃣ Baño y depósito en el salón
+4️⃣ Estructura calculada para la planta alta
+
+Y antes de arrancar, consultá en tu municipalidad qué usos permite tu zona.
+
+📲 Escribí PLANO por WhatsApp
+📍 Capiatá · Central · Paraguay
+
+#DPRO #CasaConSalón #Emprender #ConstruirEnParaguay #Capiatá #Paraguay
+
+---
+
+## Casa Tajy 120 (posts/proximos/tajy120, tajy120_1 → tajy120_3)
+
+🌳 Casa Tajy 120 · diseño original DPRO
+3 dormitorios en 2 plantas, para conservar patio en un lote de 12x30.
+
+📐 120 m² cubiertos + galería + cochera
+🛏️ 3 dormitorios + estudio en planta alta
+🍳 Cocina con isla y estar-comedor abierto a la galería
+🧱 Volúmenes en blanco y ladrillo visto, balcón con listones de madera
+🔨 Primero la planta baja, después la alta
+
+📲 Escribí PLANO por WhatsApp
+📍 Capiatá · Central · Paraguay
+
+#DPRO #CasaDosPlantas #CasaFamiliar #ConstruirEnParaguay #Capiatá #Paraguay
+
+---
+
+## Educativo · ¿1 planta o 2 plantas? (posts/proximos/info-plantas, plantas_1 → plantas_3)
+
+🏠 ¿1 planta o 2 plantas?
+Depende de tu lote, tu familia y tu presupuesto.
+
+✅ 1 planta: sin escaleras y más simple, pero ocupa más terreno
+✅ 2 plantas: libera patio en lotes angostos, con escalera y estructura calculada
+👵 Con personas mayores, conviene un dormitorio en planta baja
+🔨 Las 2 plantas se pueden hacer por etapas: primero la baja
+
+📲 Escribí PLANO por WhatsApp y vemos qué conviene en tu lote
+📍 Capiatá · Central · Paraguay
+
+#DPRO #PlanosDeCasas #CasaPropia #ConstruirEnParaguay #Capiatá #Paraguay
+
+---
+
+## Renta Trío 45 (posts/proximos/renta45, renta45_1 → renta45_3)
+
+🏘️ Renta Trío 45 · diseño original DPRO
+3 departamentos de 1 dormitorio para alquilar, en un lote de 12x30.
+
+📐 45 m² por unidad + galería propia
+🛏️ Dormitorio, baño, cocina y estar-comedor
+🚶 Pasillo lateral: cada unidad con su entrada
+⚡ Medidores de agua y luz independientes
+🔨 Se construye de a una unidad
+
+Si estás pensando en invertir, te armamos el presupuesto por unidad para que hagas números con datos reales.
+
+📲 Escribí PLANO por WhatsApp
+📍 Capiatá · Central · Paraguay
+
+#DPRO #InversionInmobiliaria #Departamentos #ConstruirEnParaguay #Capiatá #Paraguay
+
+---
+
+## Educativo · Construir para alquilar (posts/proximos/info-renta, renta_1 → renta_3)
+
+🔑 Construir para alquilar
+Un departamento que se alquila bien se piensa desde el plano.
+
+Lo que busca un inquilino:
+1️⃣ Entrada propia
+2️⃣ Medidores individuales
+3️⃣ Espacios bien resueltos y con luz natural
+4️⃣ Un lugar afuera: una galería chica suma mucho
+
+Para que rinda: materiales que duran, construir de a una unidad y hacer los números con un cómputo por rubro.
+
+📲 Escribí PLANO por WhatsApp
+📍 Capiatá · Central · Paraguay
+
+#DPRO #InversionInmobiliaria #Alquileres #ConstruirEnParaguay #Capiatá #Paraguay

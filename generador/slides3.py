@@ -104,7 +104,8 @@ def plan_slide(m, n):
             o.append(T(50 + bw * i + bw / 2, top + 24, f["titulo"].upper(), 16, 600, MUTED, "middle", ls=3))
             o.append(Plan(f, bw, bottom - top - 30, 50 + bw * i, top + 30, font=0.85).render())
     cub = sum(room_area(f, r) for f in floors for r in f["rooms"])
-    items = [(fmt(cub), "m² cubiertos" + (" / unidad" if len(floors) > 1 else ""))] + \
+    unit = m.get("por_unidad", len(floors) > 1)
+    items = [(fmt(cub), "m² cubiertos" + (" / unidad" if unit else ""))] + \
             [(fmt(s[3] * s[4]), f"m² {s[0].lower()}") for f in floors for s in f.get("semi", [])]
     o.append(stats_row(items, 1148, 40))
     o.append(footer("Medidas en metros · anteproyecto ilustrativo"))
@@ -127,7 +128,7 @@ def spec_slide(m, n):
         y += rh
         o.append(f'<line x1="{x0}" y1="{y}" x2="{x0+cw}" y2="{y}" stroke="{RULE}" stroke-width="1"/>')
     y += 22
-    o.append(T(x0, y + 28, "TOTAL CUBIERTO" + (" / UNIDAD" if multi else ""), 15, 600, MUTED, ls=2))
+    o.append(T(x0, y + 28, "TOTAL CUBIERTO" + (" / UNIDAD" if m.get("por_unidad", multi) else ""), 15, 600, MUTED, ls=2))
     o.append(T(x0 + cw, y + 40, fmt(cub) + " m²", 44, 300, ORANGE, "end"))
     y += 80
     for nm, a in m["ficha_extra"]:

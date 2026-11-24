@@ -351,9 +351,135 @@ def deuda_3():
     return doc("\n".join(o))
 
 
+# ---------------- Educativos de los modelos nuevos (Yvoty, Tajy, Trío) ----------------
+
+def _g(cx, cy, body):
+    return f'<g transform="translate({cx},{cy})" fill="none" stroke-linecap="round" stroke-linejoin="round">{body}</g>'
+
+
+def icon_shop_home():
+    """Ícono lineal original: salón con vidriera abajo y vivienda arriba."""
+    b = [f'<rect x="-180" y="-220" width="360" height="190" stroke="{INK}" stroke-width="4"/>',
+         f'<rect x="-120" y="-180" width="110" height="80" stroke="{INK}" stroke-width="3"/>',
+         f'<rect x="30" y="-180" width="90" height="80" stroke="{INK}" stroke-width="3"/>',
+         f'<rect x="-180" y="-30" width="360" height="220" stroke="{INK}" stroke-width="4"/>',
+         f'<line x1="-220" y1="-30" x2="220" y2="-30" stroke="{ORANGE}" stroke-width="8"/>',
+         f'<rect x="-150" y="20" width="200" height="170" stroke="{ORANGE}" stroke-width="3"/>',
+         f'<line x1="-50" y1="20" x2="-50" y2="190" stroke="{ORANGE}" stroke-width="2"/>',
+         f'<rect x="100" y="40" width="50" height="150" stroke="{INK}" stroke-width="3"/>',
+         f'<line x1="-260" y1="190" x2="260" y2="190" stroke="{MUTED}" stroke-width="2"/>']
+    return _g(540, 560, "".join(b))
+
+
+def icon_one_two():
+    """Ícono lineal original: una planta vs dos plantas sobre el mismo lote."""
+    b = [f'<rect x="-300" y="60" width="260" height="130" stroke="{INK}" stroke-width="4"/>',
+         f'<rect x="80" y="-80" width="170" height="135" stroke="{ORANGE}" stroke-width="4"/>',
+         f'<rect x="80" y="55" width="170" height="135" stroke="{INK}" stroke-width="4"/>',
+         f'<rect x="250" y="55" width="80" height="135" stroke="{RULE}" stroke-width="3" stroke-dasharray="10 8"/>',
+         f'<line x1="-340" y1="190" x2="-0" y2="190" stroke="{MUTED}" stroke-width="2"/>',
+         f'<line x1="40" y1="190" x2="370" y2="190" stroke="{MUTED}" stroke-width="2"/>']
+    return _g(540, 540, "".join(b)) + T(400, 790, "1 planta", 24, 500, MUTED, "middle") + T(705, 790, "2 plantas", 24, 500, MUTED, "middle")
+
+
+def icon_three_units():
+    """Ícono lineal original: tres unidades en hilera con pasillo lateral."""
+    b = [f'<line x1="-260" y1="-230" x2="-260" y2="210" stroke="{ORANGE}" stroke-width="4" stroke-dasharray="16 12"/>']
+    for i in range(3):
+        y = -230 + i * 150
+        b.append(f'<rect x="-200" y="{y}" width="420" height="120" stroke="{INK}" stroke-width="4"/>')
+        b.append(f'<rect x="-200" y="{y + 40}" width="20" height="44" fill="{ORANGE}" stroke="none"/>')
+        b.append(T(10, y + 72, f"Unidad {i + 1}", 26, 500, MUTED, "middle"))
+    return _g(540, 520, "".join(b))
+
+
+def _cover(kicker, icon, label, t1, t2, sub, foot):
+    return doc("\n".join([header(1, 3, kicker), icon, T(72, 900, label, 18, 600, ORANGE, ls=5),
+                          T(66, 1000, t1, 84, 300, INK), T(66, 1096, t2, 84, 300, INK),
+                          T(72, 1156, sub, 26, 400, MUTED), footer(foot)]))
+
+
+def _tips(n, kicker, title, tips, foot, y=330, step=190):
+    o = [header(n, 3, kicker), T(66, 220, title, 56, 300, INK)]
+    for i, (t, d) in enumerate(tips, start=1):
+        o.append(T(72, y + 34, f"0{i}", 40, 300, ORANGE))
+        o.append(T(180, y + 22, t, 30, 500, INK))
+        s, _ = para(180, y + 62, d, 24, 820, MUTED)
+        o.append(s)
+        y += step
+    o.append(footer(foot))
+    return doc("\n".join(o))
+
+
+F_SALON = "y te armamos el plano con salón y vivienda"
+F_PLANTAS = "y vemos qué conviene en tu lote"
+F_RENTA = "y te armamos el cómputo por unidad"
+
+
+def salon_1():
+    return _cover("TU CASA, TU NEGOCIO", icon_shop_home(), "PLANIFICACIÓN", "Que tu casa", "te deje ingresos",
+                  "Un salón al frente: lo que hay que prever desde el plano", F_SALON)
+
+
+def salon_2():
+    return _tips(2, "DESDE EL PLANO", "Lo que se decide antes", [
+        ("Acceso independiente", "La vivienda con su propia entrada, sin pasar por el salón."),
+        ("Medidores separados", "Luz y agua del salón aparte: más orden y más fácil de alquilar."),
+        ("Baño y depósito en el salón", "Lo mínimo para que funcione cualquier rubro."),
+        ("Estructura para crecer", "Columnas y losa calculadas para la planta alta, aunque se haga después.")], F_SALON)
+
+
+def salon_3():
+    return _tips(3, "ANTES DE ARRANCAR", "Verificá esto primero", [
+        ("Qué usos permite tu zona", "Consultá en tu municipalidad antes de diseñar el salón."),
+        ("Frente y vereda", "Vidriera, alero y una vereda en condiciones venden solos."),
+        ("Planta baja primero", "El salón puede empezar a rendir mientras se termina la vivienda.")], F_SALON, y=360, step=230)
+
+
+def plantas_1():
+    return _cover("¿QUÉ CONVIENE?", icon_one_two(), "DISEÑO", "¿1 planta", "o 2 plantas?",
+                  "Cómo elegir según tu lote, tu familia y tu presupuesto", F_PLANTAS)
+
+
+def plantas_2():
+    return _tips(2, "LA COMPARACIÓN", "Lo que cambia", [
+        ("Una planta", "Sin escaleras y más simple de construir, pero ocupa más terreno."),
+        ("Dos plantas", "Libera patio en lotes angostos. Necesita escalera y estructura calculada."),
+        ("Techo y cimientos", "En 2 plantas, el mismo techo cubre el doble; los cimientos se calculan para ese peso."),
+        ("Quién vive", "Con personas mayores, conviene un dormitorio en planta baja.")], F_PLANTAS)
+
+
+def plantas_3():
+    return _tips(3, "PARA DECIDIR", "Preguntate esto", [
+        ("¿Cuánto patio querés?", "Si el patio importa y el lote es angosto, subí."),
+        ("¿Vas a ampliar?", "Si es así, dejá la losa y la escalera previstas desde el inicio."),
+        ("¿Cuánto podés invertir hoy?", "Las 2 plantas se pueden hacer por etapas: primero la baja.")], F_PLANTAS, y=360, step=230)
+
+
+def renta_1():
+    return _cover("INVERSIÓN", icon_three_units(), "INVERSIÓN", "Construir", "para alquilar",
+                  "Cómo pensar departamentos para alquilar desde el plano", F_RENTA)
+
+
+def renta_2():
+    return _tips(2, "EL DISEÑO", "Lo que busca un inquilino", [
+        ("Entrada propia", "Un pasillo lateral y cada unidad con su acceso."),
+        ("Medidores individuales", "Cada inquilino paga su luz y su agua."),
+        ("Espacios bien resueltos", "Dormitorio, baño y cocina-estar con buena luz natural."),
+        ("Un lugar afuera", "Una galería chica suma mucho al alquilar.")], F_RENTA)
+
+
+def renta_3():
+    return _tips(3, "LOS NÚMEROS", "Para que rinda", [
+        ("Materiales que duran", "Menos mantenimiento entre un inquilino y el siguiente."),
+        ("De a una unidad", "La primera empieza a rendir mientras se hace la siguiente."),
+        ("Presupuesto real", "Hacé los números con un cómputo por rubro, no con estimaciones.")], F_RENTA, y=360, step=230)
+
+
 POSTS = {"sector": [sector_1, sector_2, sector_3], "tormentas": [clima_1, clima_2, clima_3],
          "plano": [plano_1, plano_2, plano_3], "etapas": [etapas_1, etapas_2, etapas_3],
-         "deuda": [deuda_1, deuda_2, deuda_3]}
+         "deuda": [deuda_1, deuda_2, deuda_3], "salon": [salon_1, salon_2, salon_3],
+         "plantas": [plantas_1, plantas_2, plantas_3], "renta": [renta_1, renta_2, renta_3]}
 
 
 def build(key, outdir):
