@@ -348,3 +348,19 @@ Para que rinda: materiales que duran, construir de a una unidad y hacer los núm
 📍 Capiatá · Central · Paraguay
 
 #DPRO #InversionInmobiliaria #Alquileres #ConstruirEnParaguay #Capiatá #Paraguay
+
+---
+
+## Reel · Casa Salón Yvoty (Gemini) (posts/proximos/reel-yvoty/reel_yvoty_gemini.mp4)
+
+🎬 Casa Salón Yvoty, al caer la tarde
+Tu negocio abajo, tu casa arriba.
+
+🛍️ Salón de 37 m² con vidriera · 🏠 vivienda de 2 dormitorios arriba · 🚪 entrada independiente
+Se construye por etapas: primero el salón.
+
+Render ilustrativo · diseño original DPRO
+📲 Escribí PLANO por WhatsApp
+📍 Capiatá · Central · Paraguay
+
+#DPRO #CasaConSalón #LocalComercial #ConstruirEnParaguay #Capiatá #Paraguay
