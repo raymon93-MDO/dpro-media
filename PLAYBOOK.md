@@ -70,3 +70,4 @@ Verificar con `curl` que devuelva 200 e `image/jpeg` antes de publicar.
 | 2026-11-18 | La construcción vuelve a empujar (novedades BCP, carrusel) | https://www.instagram.com/p/Df5iAsyDfVA/ | Post 1358249884048379_122098620291555754 |
 | 2026-11-20 | Tu casa, lista para el temporal (educativo, carrusel con checklist) | https://www.instagram.com/p/Df-rkANDQ9r/ | Post 1358249884048379_122100236979555754 |
 | 2026-11-23 | Cómo leer el plano de tu casa (educativo, carrusel) | https://www.instagram.com/p/DgGZ8rFiOni/ | Post 1358249884048379_122103078933555754 |
+| 2026-11-24 | Reel Casa Ñandutí 92 (video Gemini) | https://www.instagram.com/reel/DgI-vRZjZ0Y/ | Post 1358249884048379_122104013415555754 |
