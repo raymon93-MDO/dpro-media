@@ -48,6 +48,13 @@ Verificar con `curl` que devuelva 200 e `image/jpeg` antes de publicar.
 - Semana 16–20/11 (aprobada y programada). Semana 23–27/11: lunes "Cómo leer un plano" y viernes "Casa por etapas" aprobados y programados como prueba (Chapa decide después si sigue el formato educativo); el miércoles 25 va con novedades frescas. Antes: Quinta Lapacho (`posts/2026-11-16-quinta-lapacho/`), Novedades BCP (`posts/2026-11-18-novedades-construccion/`), Tormentas (`posts/2026-11-20-casa-tormentas/`). `posts/proximos/` quedó vacío: los 4 modelos ya tienen carrusel. Láminas informativas: `python3 generador/info.py <sector|tormentas> <salida>`.
 - Textos de los modelos: `posts/textos_publicaciones.md`.
 
+## Proyectos nuevos (desde 24/11/2026)
+
+- Pedido de Inge (24/11): siempre tener diseños nuevos, cada uno completo con carrusel del modelo + Reel de Gemini + carrusel informativo. Un proyecto cada 2 semanas (lunes modelo, martes Reel, viernes informativo; los miércoles quedan para novedades).
+- Tanda 1 (elegida por Inge): Casa Salón Yvoty (`yvoty144`), Casa Tajy 120 (`tajy120`), Renta Trío 45 (`renta45`). Material en `posts/proximos/` (modelo, `info-<tema>`, `reel-yvoty`). Informativos: `python3 generador/info.py <salon|plantas|renta> <salida>`.
+- Bajar imágenes y videos de Gemini: el botón de descarga de Gemini no funciona desde Claude in Chrome. Usar `javascript_tool`: imagen → canvas → `<a download>`; video → `fetch(video.src)` → blob → `<a download>`. Cae en Descargas de la compu de Inge; de ahí `device_stage_files`.
+- Revisar en cada render que los autos no tengan marca reconocible (Tajy salió con una camioneta de marca y se pidió a Gemini reemplazarla por una genérica).
+
 ## Reels (1 por semana, desde 16/11/2026)
 
 - Decisión de Chapa (16/11): mantener el ritmo de carruseles (lun/mié/vie) y sumar **un Reel por semana**, en un día sin carrusel (martes, 19:00).
