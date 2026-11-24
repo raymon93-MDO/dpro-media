@@ -53,6 +53,8 @@ Verificar con `curl` que devuelva 200 e `image/jpeg` antes de publicar.
 - Pedido de Inge (24/11): siempre tener diseños nuevos, cada uno completo con carrusel del modelo + Reel de Gemini + carrusel informativo. Un proyecto cada 2 semanas (lunes modelo, martes Reel, viernes informativo; los miércoles quedan para novedades).
 - Tanda 1 (elegida por Inge): Casa Salón Yvoty (`yvoty144`), Casa Tajy 120 (`tajy120`), Renta Trío 45 (`renta45`). Material en `posts/proximos/` (modelo, `info-<tema>`, `reel-yvoty`). Informativos: `python3 generador/info.py <salon|plantas|renta> <salida>`.
 - Bajar imágenes y videos de Gemini: el botón de descarga de Gemini no funciona desde Claude in Chrome. Usar `javascript_tool`: imagen → canvas → `<a download>`; video → `fetch(video.src)` → blob → `<a download>`. Cae en Descargas de la compu de Inge; de ahí `device_stage_files`.
+- **Pedido de Inge (24/11): los Reels muestran fachada + interior.** Flujo: render de fachada + 1–2 renders interiores (estar-cocina, dormitorio) en Gemini con los mismos materiales; un clip de video por render; unir con `reel_gemini.py` (fachada → interior → cierre). Se arma la semana anterior a cada Reel.
+- Yvoty (30/11, 1/12, 4/12) programado el 24/11. No mover `posts/proximos/` mientras haya publicaciones programadas que apuntan ahí.
 - Revisar en cada render que los autos no tengan marca reconocible (Tajy salió con una camioneta de marca y se pidió a Gemini reemplazarla por una genérica).
 
 ## Reels (1 por semana, desde 16/11/2026)
